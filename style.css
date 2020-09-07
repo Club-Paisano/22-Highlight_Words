@@ -1,0 +1,44 @@
+:root {
+  --base1: #eff0f4;
+  --base2: #d3d6db;
+  --base3: #415f9d;
+  --base4: #233b6e;
+  --spanWidth: 1px;
+  --spanHeight: 1px;
+  font-size: 16px;
+
+}
+
+body {
+  font-size: 1rem;
+  color: var(--base2);
+  background-color: var(--base2);
+}
+
+section {
+  background-color: var(--base4);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+
+}
+button {
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.75rem;
+  text-align: left;
+}
+
+.highlight {
+  display: inline-block;
+  border-radius: 30px;
+  background-color: black;
+  /* padding: 1px ; */
+  width: var(--spanWidth);
+  height: var(--spanHeight);
+
+}
